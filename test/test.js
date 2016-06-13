@@ -45,7 +45,7 @@ describe('request-extension factory', function () {
     expect(request.property).to.not.be.ok;
     expect(request.$inject).to.be.undefined;
   });
-  it('should execute middleware based on their dependency graph', function () {
+  it('should execute middleware in an order based on their dependencies', function () {
     expect(spawnSync('node', [path.join(__dirname, 'scripts', 'testexec')]).stdout.toString('utf8')).to.match(/first\nsecond/);
   });
 });
