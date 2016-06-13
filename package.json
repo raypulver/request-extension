@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "name": "request-extension",
+        "raw": "request-extension",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/ray/src/request-extension"
+    ]
+  ],
+  "_from": "request-extension@latest",
+  "_id": "request-extension@0.1.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/request-extension",
+  "_nodeVersion": "4.4.4",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/request-extension-0.1.1.tgz_1465750106759_0.18277513957582414"
+  },
+  "_npmUser": {
+    "email": "raymond.pulver_iv@uconn.edu",
+    "name": "ray1191"
+  },
+  "_npmVersion": "3.9.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "request-extension",
+    "raw": "request-extension",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/request-extension/-/request-extension-0.1.1.tgz",
+  "_shasum": "f241b86810a09fd76daa43582ae8bae742003648",
+  "_shrinkwrap": null,
+  "_spec": "request-extension",
+  "_where": "/Users/ray/src/request-extension",
+  "author": {
+    "name": "Raymond Pulver IV"
+  },
+  "bugs": {
+    "url": "https://github.com/raypulver/request-extension/issues"
+  },
+  "dependencies": {
+    "js-priority-queue": "^0.1.5"
+  },
+  "description": "factory for standalone extensions to request, based on request-debug and request-extensible",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "request": "^2.72.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "f241b86810a09fd76daa43582ae8bae742003648",
+    "tarball": "https://registry.npmjs.org/request-extension/-/request-extension-0.1.1.tgz"
+  },
+  "gitHead": "3d687b86f053fe3ae1cc7e48a8edabb38b341270",
+  "homepage": "https://github.com/raypulver/request-extension#readme",
+  "keywords": [
+    "request",
+    "http",
+    "standalone",
+    "extension",
+    "cache",
+    "debug"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "raymond.pulver_iv@uconn.edu",
+      "name": "ray1191"
+    }
+  ],
+  "name": "request-extension",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raypulver/request-extension.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.1.2"
+}
