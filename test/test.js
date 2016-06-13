@@ -29,6 +29,7 @@ describe('priority queue', function () {
 });
 
 describe('request-extension factory', function () {
+  this.timeout(50000);
   it('should be able to mount and unmount', function () {
     var ext = Extension({
       mount: function (request) {

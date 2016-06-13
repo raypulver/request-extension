@@ -1,5 +1,5 @@
 module.exports = require('../..')({
-  depends: ['./hipriext'],
+  depends: [require('./hipriext')],
   middleware: function (request, params, next) {
     console.log('second');
     next();
